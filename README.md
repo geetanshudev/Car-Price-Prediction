@@ -28,7 +28,7 @@ Running the Application
 1. Start the Flask development server:
 
    ```bash
-   python app.py
+   python carapp.py
    ```
 
 2. Open your web browser and visit `http://127.0.0.1:5000/` .
