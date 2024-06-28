@@ -1,0 +1,68 @@
+body{
+    background-image: url("edited 1979 mercedes benz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#head{
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+#tabl{
+    background-color:#a84428 ;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 38%;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-radius: 15px;
+    
+}
+
+#num{
+    width: 140px;
+}
+#fuel_type{
+    width: 144px;
+}
+
+#seller{
+    width: 144px;
+}
+#transmission{
+    width: 144px;
+}
+
+#predict{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #1b5735;
+    color: beige;
+    border-radius: 10px;
+}
+
+#clear{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #571b1b;
+    color: beige;
+    border-radius: 10px;
+}
+
+td{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#pred{
+    background-color: antiquewhite;
+}

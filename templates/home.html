@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='home.css')}}">
+</head>
+<body>
+   <p id="head">CarPred.com</p>
+   <br>
+   <br>
+   <table id="tabl">
+        <form action="" method="post">
+            <tr>
+                <td>Model Year</td>
+                <td><input type="number" name="year" min="1991" max="2020" id="num"></td>
+            </tr>
+            <tr>
+                <td>KM driven</td>
+                <td><input type="number" name="km" min="1"max="2360457.0" id="num"></td>
+            </tr>
+            <tr>
+                <td>Select Fuel type</td>
+                <td>
+                    <select name="fuel_type" id="fuel_type">
+                        <option value=""></option>
+                        <option value="0">Diesel</option>
+                        <option value="1">Petrol</option>
+                        <option value="2">CNG</option>
+                        <option value="3">LPG</option>
+                    </select>
+                </td>
+
+            </tr>
+            <tr>
+                <td>Select seller type</td>
+                <td>
+                    <select name="seller" id="seller">
+                        <option value=""></option>
+                        <option value="0">Individual</option>
+                        <option value="1">Dealer</option>
+                        <option value="2">Trustmark Dealer</option>
+                       
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Select Transmission</td>
+                <td>
+                    <select name="transmission" id="transmission">
+                        <option value=""></option>
+                        <option value="0">Manual</option>
+                        <option value="1">Automatic</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Select owner type</td>
+                <td>
+                    <select name="owner" id="owner">
+                        <option value=""></option>
+                        <option value="0">First Owner</option>
+                        <option value="1">Second Owner</option>
+                        <option value="2">Third Owner</option>
+                        <option value="3">Fourth & more Owner</option>
+                        <option value="4">Test Drive Car</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Mileage</td>
+                <td><input type="number" name="mileage" id="num" min="0" max="42"></td>
+            </tr>
+            <tr>
+                <td>Engine CC</td>
+                <td><input type="number" name="enginecc" id="num" min="624.0" max="3604.0"></td>
+            </tr>
+            <tr>
+                <td>Number of Seat</td>
+                <td><input type="number" name="seat" id="num" min="2" max="14"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Predict" id="predict"></td>
+                <td><input type="reset"value="clear" id="clear" ></td>
+            </tr>
+            <tr>
+                <td>Predicted Price in Rupees </td>
+                <td id="pred">{{price}}</td>
+            </tr>
+        </form>
+   </table>
+</body>
+</html>
