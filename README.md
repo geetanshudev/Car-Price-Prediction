@@ -1,5 +1,5 @@
 ﻿# Car-Price-Prediction
-![Screenshot 2024-06-28 215359](https://github.com/geetanshudev/Car-Price-Prediction/assets/119582068/270a7271-ba2f-4b36-9d79-cd215ad78acd)
+![carpred](https://github.com/geetanshudev/Car-Price-Prediction/assets/119582068/b918db52-6819-4bc6-afd0-ab89a42dce05)
 
 
 
